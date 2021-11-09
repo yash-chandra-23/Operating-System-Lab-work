@@ -12,6 +12,5 @@ printf("Unix \n");
 fork();
 printf("Red Hat \n");
 return 0;
-
 }
 
