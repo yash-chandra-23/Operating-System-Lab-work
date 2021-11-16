@@ -9,11 +9,13 @@ pid_t pid;
 pid=fork();
 if(pid!=0)
 {
+ printf("I am parent \n");
 while(1);
-sleep(50);
+sleep(10);
 }
 else
 {
+  printf("I am child")
 exit(0);
 }
 return 0;
